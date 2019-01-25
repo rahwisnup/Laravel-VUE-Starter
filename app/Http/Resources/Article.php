@@ -17,7 +17,7 @@ class Article extends JsonResource
         //menampilkan semua data
         // return parent::toArray($request); 
 
-        //menamppilkan variabel yang dierlukan
+        //menamppilkan variabel yang dierlukan 
         return [
             'id' => $this->id,
             'title' => $this->title,

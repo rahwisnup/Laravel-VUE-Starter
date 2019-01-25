@@ -17,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
         
-        //setting agar pada saat show bagian data tidak ditampilkan
+        //setting agar pada saat show bagian data tidak ditampilkan (http://backend.test/api/article/3)
         // Resource::withoutWrapping();
         
     }
